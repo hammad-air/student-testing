@@ -6,7 +6,7 @@ const cors = require("cors");
 const { MongoClient } = require("mongodb"); // <-- Add this line
 
 // MongoDB connection URI and client setup
-const uri = "mongodb+srv://highrated109:keNvVD5Odm3xIquR@cluster0.laszdu7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // Change this to your MongoDB URI if needed
+const uri = process.env.MONGO_URI; // Change this to your MongoDB URI if needed
 const client = new MongoClient(uri);
 
 let db;
