@@ -1,0 +1,23 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^7.2.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "nodemailer": "^7.0.5"
+  }
+}
